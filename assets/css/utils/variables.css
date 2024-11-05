@@ -1,0 +1,26 @@
+:root{
+    /* Color styles */
+    --dark: #302F30;
+    --graydark: #555151;
+    --graylight: #C9C7C6;
+    --white: #ffffff;
+    --tonic: #FFC522;
+
+    /*Opacity styles*/
+    --dark75: #302F3075;
+    --white75: #ffffff75;
+    --white50: #ffffff50;
+    --tonic75: #FFC52275;
+
+    /*Font families*/
+    --title: 'Maven Pro';
+    --text: 'Kdam Thmor Regular';
+    --mono: 'Kode Mono';
+
+    /*Font sizes*/
+    --title: 2rem;
+    --subtitle: 1.25rem;
+    --text: 0.875rem;
+    --smalltext: 0.625rem;
+    --mono: 0.75rem;
+}

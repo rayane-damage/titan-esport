@@ -3,7 +3,7 @@ Theme Name: Titan E-sports
 Theme URI:
 Author: Rayane Damage
 Author URI: 
-Description: Thème wordpress reprenant l'ésthétique du jeu Titanfall 2.'
+Description: Thème wordpress reprenant l'ésthétique du jeu Titanfall 2.
 Version: 0.1
 Tags: 
 */
@@ -20,3 +20,5 @@ Tags:
 }
 
 /*import stylesheets*/
+@import url(assets/css/vendors/nomalize.css);
+@import url(assets/css/utils/variables.css);
