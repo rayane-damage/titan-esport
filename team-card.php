@@ -7,7 +7,7 @@
             <?php the_title(); ?>
         </h1>
     </a>
-    <span class="team_card-line"></span>
+    <span class="line"></span>
     <div class="team_card-list">
         <ul class="team_row">
             <li class="team_row-item">@<?php $memb1 = get_field('member1'); 
