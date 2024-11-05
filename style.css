@@ -1,0 +1,22 @@
+/*
+Theme Name: Titan E-sports
+Theme URI:
+Author: Rayane Damage
+Author URI: 
+Description: Thème wordpress reprenant l'ésthétique du jeu Titanfall 2.'
+Version: 0.1
+Tags: 
+*/
+
+/*import fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Kode+Mono:wght@400..700&family=Maven+Pro:wght@400..900&display=swap');
+
+/*import Kdam Thmor*/
+@font-face {
+    font-family: 'Kdam Thmor Regular';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Kdam Thmor Regular'), url('assets/fonts/KdamThmor-Regular.woff') format('woff');
+}
+
+/*import stylesheets*/
