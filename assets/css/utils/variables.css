@@ -15,7 +15,7 @@
 
     /*Font families*/
     --titlefont: 'Maven Pro';
-    --textfont: 'Kdam Thmor Regular';
+    --textfont: 'Kdam Thmor Regular', 'Segoe UI';
     --monofont: 'Kode Mono';
 
     /*Font sizes*/
