@@ -8,10 +8,10 @@ Version: 0.1
 Tags: 
 */
 
-/*import fonts*/
+/*Fonts*/
 @import url('https://fonts.googleapis.com/css2?family=Kode+Mono:wght@400..700&family=Maven+Pro:wght@400..900&display=swap');
 
-/*import Kdam Thmor*/
+/*Kdam Thmor*/
 @font-face {
     font-family: 'Kdam Thmor Regular';
     font-style: normal;
@@ -19,6 +19,13 @@ Tags:
     src: local('Kdam Thmor Regular'), url('assets/fonts/KdamThmor-Regular.woff') format('woff');
 }
 
-/*import stylesheets*/
+/*Vendors*/
 @import url(assets/css/vendors/nomalize.css);
+
+/*Utils*/
 @import url(assets/css/utils/variables.css);
+
+/*Base*/
+@import url(assets/css/base/main.css);
+
+/*Components*/

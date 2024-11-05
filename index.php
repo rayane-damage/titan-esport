@@ -1,3 +1,3 @@
 <?php get_header();?>
-this is fine
+<p>this is fine</p>
 <?php get_footer();?>
