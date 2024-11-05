@@ -8,14 +8,15 @@
 
     /*Opacity styles*/
     --dark75: #302F3075;
+    --graydark50: #55515150;
     --white75: #ffffff75;
     --white50: #ffffff50;
     --tonic75: #FFC52275;
 
     /*Font families*/
-    --title: 'Maven Pro';
-    --text: 'Kdam Thmor Regular';
-    --mono: 'Kode Mono';
+    --titlefont: 'Maven Pro';
+    --textfont: 'Kdam Thmor Regular';
+    --monofont: 'Kode Mono';
 
     /*Font sizes*/
     --title: 2rem;
