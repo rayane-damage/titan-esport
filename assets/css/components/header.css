@@ -1,0 +1,27 @@
+.header{
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: linear-gradient(0deg, #302F3000 0%, #302F30 100%);
+    padding: 0px 1rem;
+    width: 100%;
+    height: 4rem;
+}
+
+.header_menu{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 12px 0px;
+    width: 48px;
+    height: 48px;
+}
+.menu_bar:first-child{
+    width: 32px;
+}
+.menu_bar{
+    height: 2px;
+    width: 100%;
+    background-color: var(--tonic);
+}
