@@ -11,14 +11,6 @@ Tags:
 /*Fonts*/
 @import url('https://fonts.googleapis.com/css2?family=Kode+Mono:wght@400..700&family=Maven+Pro:wght@400..900&display=swap');
 
-/*Kdam Thmor*/
-@font-face {
-    font-family: 'Kdam Thmor Regular';
-    font-style: normal;
-    font-weight: normal;
-    src: local('Kdam Thmor Regular'), url('assets/fonts/KdamThmor-Regular.woff') format('woff');
-}
-
 /*Vendors*/
 @import url(assets/css/vendors/nomalize.css);
 
@@ -27,5 +19,6 @@ Tags:
 
 /*Base*/
 @import url(assets/css/base/main.css);
+@import url(assets/css/base/fonts.css);
 
 /*Components*/
