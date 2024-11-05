@@ -1,0 +1,25 @@
+/*single-equipe.php styles*/
+.team_members{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+.team_members-list{
+    display: flex;
+    flex-direction: column;
+    border-radius: 1rem 0px 1rem 0px;
+    background-color: var(--dark75);
+    backdrop-filter: blur(8px);
+    padding: 1rem 0px;
+}
+.team_infos-edit{
+    border-radius: 0rem 0px 1rem 0px;
+    background-color: var(--dark75);
+    backdrop-filter: blur(8px);
+    padding: 0.5rem 1rem;
+    font-family: var(--monofont);
+    font-size: var(--mono);
+    color: var(--tonic);
+    text-transform: uppercase;
+    width: 100%;
+}
