@@ -40,4 +40,6 @@
 .page_item>a{
     color: var(--white);
     font-size: var(--smalltext);
+    width: 100%;
+    display: block;
 }
