@@ -1,5 +1,6 @@
 .footer{
     margin: 0px 1rem;
+    margin-top: 8rem;
     display: flex;
     flex-direction: column;
     gap: 0.5rem;
