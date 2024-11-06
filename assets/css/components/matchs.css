@@ -1,0 +1,13 @@
+/*index.php*/
+.matchs{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    margin: 0px 1rem;
+}
+.matchs_section{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    padding-bottom: 2rem;
+}

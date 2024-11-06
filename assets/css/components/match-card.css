@@ -36,11 +36,13 @@
     font-family: var(--titlefont);
     font-size: var(--subtitle);
     font-weight: 500;
+    color: var(--white);
 }
 .teamInfos_score{
     font-family: var(--monofont);
     font-size: var(--mono);
     color: var(--tonic);
+    text-transform: uppercase;
 }
 .match_card-vs{
     font-family: var(--titlefont);
