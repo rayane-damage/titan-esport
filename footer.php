@@ -5,7 +5,12 @@
               <h1 class="footer_title">Titan E-sports</h1>
             </div>
             <div class="footer_middle">
-              <nav class="footer_main-nav"></nav>
+              <nav class="footer_main-nav">
+                <?php 
+                  wp_nav_menu ( array (
+                    'theme_location' => 'footer' 
+                ) ); ?>
+              </nav>
               <nav class="footer_login-nav"></nav>
             </div>
             <span class="line"></span>

@@ -33,4 +33,5 @@
     font-family: var(--monofont);
     font-size: var(--mono);
     color: var(--tonic);
+    text-transform: uppercase;
 }
