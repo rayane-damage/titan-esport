@@ -1,6 +1,12 @@
 .hero_card{
     margin: 0px 1rem;
 }
+.hero_card-title{
+    font-family: var(--titlefont);
+    font-size: var(--title);
+    font-weight: 500;
+    text-transform: uppercase;
+}
 .hero_card-main{
     display: flex;
     flex-direction: column;
