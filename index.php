@@ -25,8 +25,8 @@
         <?php endif; ?> 
 
 
-        <section class="page_section">
-            <h2 class="title title_offset">équipes</h2>
+        <section class="page_section team_section">
+            <h2 class="title title_incard">équipes</h2>
             <div class="teams">
                 <?php
                     $teamargs = array(

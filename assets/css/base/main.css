@@ -48,3 +48,12 @@ li {
 .title_offset{
     padding-left: 1rem;
 }
+.title_incard{
+    display: flex;
+    flex-direction: column;
+    border-radius: 0rem 0px 1rem 0px;
+    background-color: var(--dark75);
+    backdrop-filter: blur(8px);
+    padding: 0.25rem 1rem;
+    min-width: 50vw;
+}
