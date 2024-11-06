@@ -46,14 +46,14 @@
 
         <?php
             $matchargs = array(
-                'post_type' => 'equipes',
+                'post_type' => 'match',
                 'posts_per_page' => -1,
             );
             $match_query = new WP_Query( $matchargs );
             if( $match_query->have_posts() ): 
                 while( $match_query->have_posts() ): $match_query->the_post();
         ?>
-        <?php get_template_part('match-card')?>
+            <?php get_template_part('match-card')?>
         <?php endwhile; ?>
         <?php endif; ?>  
     </section>

@@ -9,10 +9,17 @@
 }
 .match_banner{
     display: flex;
+    justify-content: space-between;
+    height: 3rem;
 }
 .match_banner-img{
+    margin: 0;
+}
+.match_banner-img>img{
     opacity: 50%;
-    min-height: 32px;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
 .match_card-teams{
     display: flex;
