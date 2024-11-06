@@ -9,7 +9,7 @@
     </head>
         <body>
             <header class="header">
-                <a href="http://localhost/titan-esports">
+                <a href="https://titan-esports.rdamage.fr">
                     <img class="header_logo" src="assets/imgs/logo.svg" alt="logo du site">
                 </a>
                 <div class="header_menu">
