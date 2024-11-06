@@ -13,7 +13,12 @@
               Titan E-sports est un site non officiel réalisé dans le cadre d’un exercice pédagogique et qui n'est pas affilié à EA ou Respawn entertainement.
             </p>            
           </div>
-          <nav class="footer_legal"></nav>
+          <nav class="footer_legal">
+            <?php 
+              wp_nav_menu ( array (
+                'theme_location' => 'legal' 
+            ) ); ?>
+          </nav>
         </footer>
         <?php wp_footer(); ?>     
   </body>
