@@ -12,6 +12,7 @@
 }
 .match_banner-img{
     opacity: 50%;
+    min-height: 32px;
 }
 .match_card-teams{
     display: flex;
