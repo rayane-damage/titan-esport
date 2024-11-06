@@ -1,0 +1,42 @@
+.match_card{
+    display: flex;
+    flex-direction: column;
+    border-radius: 1rem 0px 1rem 0px;
+    border: solid 1px var(--graydark);
+    background-color: var(--dark75);
+    backdrop-filter: blur(8px);
+    padding: 1rem 0px;
+}
+.match_banner{
+    display: flex;
+}
+.match_banner-img{
+    opacity: 50%;
+}
+.match_card-teams{
+    display: flex;
+    justify-content: space-between;
+    padding: 0.5rem 2rem;
+}
+.match_card-teamInfos{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+.teamInfos_name{
+    font-family: var(--titlefont);
+    font-size: var(--subtitle);
+    font-weight: 500;
+}
+.teamInfos_score{
+    font-family: var(--monofont);
+    font-size: var(--mono);
+    color: var(--tonic);
+}
+.match_card-vs{
+    font-family: var(--titlefont);
+    font-size: var(--subtitle);
+    font-weight: 500;
+    color: var(--graylight);
+    text-transform: uppercase;
+}
