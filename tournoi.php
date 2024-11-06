@@ -1,8 +1,4 @@
 <article class="tournament">
-    <div class="tournament_title">
-        <h2 class="title"><?php the_title() ?></h2>
-        <span class="line"></span>
-    </div>
     <span class="tournament_desc">
         <?php the_content()?>
     </span>

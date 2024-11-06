@@ -6,12 +6,15 @@
     background-color: var(--dark75);
     backdrop-filter: blur(8px);
     padding: 1rem 0px;
+    min-width: 50vw;
+    margin-left: 1rem;
 }
-.team_card-img{
+.team_card-img>img{
     object-fit: cover;
     width: 100%;
-    min-height: 64px;
+    height: 64px;
     margin: 0;
+    opacity: 50%;
 }
 .team_card-title{
     font-family: var(--titlefont);

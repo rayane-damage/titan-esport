@@ -28,6 +28,7 @@ Tags:
 @import url(assets/css/components/hero.css);
 @import url(assets/css/components/match-card.css);
 @import url(assets/css/components/tournoi.css);
+@import url(assets/css/components/teams.css);
 
 /*Pages*/
 @import url(assets/css/pages/team.css);

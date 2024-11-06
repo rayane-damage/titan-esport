@@ -42,3 +42,9 @@ li {
     flex-direction: column;
     gap: 8rem;
 }
+.page_title{
+    margin-bottom: 1rem;
+}
+.title_offset{
+    padding-left: 1rem;
+}
