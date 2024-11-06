@@ -1,6 +1,4 @@
-        <figure class="hero_img">
-            <?php the_post_thumbnail( 'thumbnail' ); ?>            
-        </figure>
+        <img class="hero_img" src="assets/imgs/home_hero.webp" alt="hero img">
         <article class="hero_card">
             <h2 class="hero_card-title">
                 <?php the_title() ?>

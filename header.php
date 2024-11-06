@@ -9,7 +9,9 @@
     </head>
         <body>
             <header class="header">
-                <img class="header_logo" src="assets/imgs/logo.svg" alt="logo du site">
+                <a href="http://localhost/titan-esports">
+                    <img class="header_logo" src="assets/imgs/logo.svg" alt="logo du site">
+                </a>
                 <div class="header_menu">
                     <span class="menu_bar"></span>
                     <span class="menu_bar"></span>
