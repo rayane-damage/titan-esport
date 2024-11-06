@@ -16,4 +16,3 @@
                     <span class="menu_bar"></span>
                 </div>
             </header>
-            <div class="grid">

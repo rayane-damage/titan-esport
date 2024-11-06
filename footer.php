@@ -16,6 +16,5 @@
           <nav class="footer_legal"></nav>
         </footer>
         <?php wp_footer(); ?>     
-      </div>
   </body>
 </html>
