@@ -1,0 +1,30 @@
+.tournament{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    margin: 0px 0.5rem;
+}
+.tournament_desc>p{
+    color: var(--graylight);
+}
+.tournament_info, .tournament_rules{
+    display: flex;
+    flex-direction: column;
+    gap: 0.25rem;
+}
+.tournament_info-list, .tournament_rules-list{
+    display: flex;
+    flex-direction: column;
+    gap: 0.25rem;
+    padding-left: 1rem;
+}
+.tournament_info-item, .tournament_rules-item{
+    display: flex;
+    gap: 0.25rem;
+}
+.tournament_info-value, .tournament_rules-value{
+    font-family: var(--monofont);
+    font-size: var(--mono);
+    text-transform: uppercase;
+    color: var(--tonic);
+}
