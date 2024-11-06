@@ -1,6 +1,7 @@
 <?php get_header();?>
 <?php if (have_posts()) : ?>
 <?php while (have_posts()) : the_post(); ?>
+    <section class="content">
     <?php get_template_part('hero')?>
     <?php
         $tourargs = array(
@@ -27,6 +28,7 @@
     <?php get_template_part('match-card')?>
     <?php endwhile; ?>
     <?php endif; ?>  
+    </section>
 <?php endwhile; ?>
 <?php endif; ?>  
 <?php get_footer();?>

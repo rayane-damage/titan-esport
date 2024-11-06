@@ -21,7 +21,4 @@
             <li class="tournament_rules-item">Mode de jeu : <p class="tournament_rules-value"><?php the_field('game_mode') ?></p></li>
         </ul>
     </div>
-
-
-
 </article>

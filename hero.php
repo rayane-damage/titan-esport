@@ -7,5 +7,4 @@
                 <?php the_content(); ?>
                 <a class="hero_card-link" href="#"><?php the_field('hero_link')?></a>                
             </div>
-
         </article>
