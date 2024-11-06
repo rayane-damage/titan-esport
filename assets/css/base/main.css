@@ -30,3 +30,9 @@ li {
     font-weight: 500;
     text-transform: uppercase;
 }
+.subtitle{
+    font-family: var(--titlefont);
+    font-size: var(--subtitle);
+    font-weight: 500;
+    text-transform: uppercase;
+}
