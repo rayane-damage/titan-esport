@@ -1,0 +1,17 @@
+.hero_card{
+    margin: 0px 1rem;
+}
+.hero_card-main{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    border-radius: 1rem 0px 1rem 0px;
+    background-color: var(--dark75);
+    backdrop-filter: blur(8px);
+    padding: 2rem 1rem;
+}
+.hero_card-link{
+    font-family: var(--monofont);
+    font-size: var(--mono);
+    text-transform: uppercase;
+}
